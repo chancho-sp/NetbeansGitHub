@@ -60,17 +60,7 @@ public class eval02 {
             return capvalida;
         }
     }
-    public static void imprimirPantalla(String[] n, String[] c){
-        int i=0;
-        System.out.println("-------");
-        for (i=0;i<n.length;i++){
-            System.out.printf("%s\n", n[i]);
-        }
-        System.out.println("-------");
-        for (i=0;i<c.length;i++){
-            System.out.printf("%s\n", c[i]);
-        }
-    }
+    
     public static void hacerCompra(String[] n){
         int i=0, pos=0;
         String productos="", parte1="", parte2="", productosc="";
